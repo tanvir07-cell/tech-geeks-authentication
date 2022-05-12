@@ -11,10 +11,10 @@ const Home = () => {
     fetch("https://retro-tech-talks.herokuapp.com/blogs")
       .then((res) => res.json())
       .then((data) => setBlogs(data));
-  }, []);
+  }, [setBlogs]);
 
   return (
-    <div className='blogs-container'>
+    <div className="blogs-container">
       {blogs.map((blog, index) => (
         <Blog key={index} blog={blog} />
       ))}
