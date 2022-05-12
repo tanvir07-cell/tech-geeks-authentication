@@ -3798,7 +3798,7 @@
   dependencies:
     "cssom" "~0.3.6"
 
-"csstype@^3.0.2":
+"csstype@^3.0.10", "csstype@^3.0.2":
   "integrity" "sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw=="
   "resolved" "https://registry.npmjs.org/csstype/-/csstype-3.0.11.tgz"
   "version" "3.0.11"
@@ -5027,6 +5027,11 @@
     "ignore" "^5.2.0"
     "merge2" "^1.4.1"
     "slash" "^3.0.0"
+
+"goober@^2.1.1":
+  "integrity" "sha512-PAtnJbrWtHbfpJUIveG5PJIB6Mc9Kd0gimu9wZwPyA+wQUSeOeA4x4Ug16lyaaUUKZ/G6QEH1xunKOuXP1F4Vw=="
+  "resolved" "https://registry.npmjs.org/goober/-/goober-2.1.9.tgz"
+  "version" "2.1.9"
 
 "graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0", "graceful-fs@^4.2.4", "graceful-fs@^4.2.6", "graceful-fs@^4.2.9":
   "integrity" "sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ=="
@@ -7692,7 +7697,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@*", "react-dom@^18.0.0", "react-dom@>=16.8":
+"react-dom@*", "react-dom@^18.0.0", "react-dom@>=16", "react-dom@>=16.8":
   "integrity" "sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.0.0.tgz"
   "version" "18.0.0"
@@ -7704,6 +7709,13 @@
   "integrity" "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz"
   "version" "6.0.10"
+
+"react-hot-toast@^2.2.0":
+  "integrity" "sha512-248rXw13uhf/6TNDVzagX+y7R8J183rp7MwUMNkcrBRyHj/jWOggfXTGlM8zAOuh701WyVW+eUaWG2LeSufX9g=="
+  "resolved" "https://registry.npmjs.org/react-hot-toast/-/react-hot-toast-2.2.0.tgz"
+  "version" "2.2.0"
+  dependencies:
+    "goober" "^2.1.1"
 
 "react-icons@^4.3.1":
   "integrity" "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ=="
@@ -7795,7 +7807,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@*", "react@^18.0.0", "react@>= 16", "react@>=16.8":
+"react@*", "react@^18.0.0", "react@>= 16", "react@>=16", "react@>=16.8":
   "integrity" "sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.0.0.tgz"
   "version" "18.0.0"

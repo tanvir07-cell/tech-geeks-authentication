@@ -1,4 +1,5 @@
 import "./App.css";
+import { Toaster } from "react-hot-toast";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Videos from "./Components/Videos/Videos";
@@ -16,14 +17,15 @@ function App() {
 
   return (
     <BlogContext.Provider value={[blogs, setBlogs]}>
+      <Toaster></Toaster>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/videos' element={<Videos />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
-        <Route path='/blog/:id' element={<BlogDetails />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/videos" element={<Videos />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BlogContext.Provider>
   );
